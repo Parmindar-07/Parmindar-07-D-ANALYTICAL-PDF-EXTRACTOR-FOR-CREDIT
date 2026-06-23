@@ -175,8 +175,8 @@ Ignore:
 
 8. FIXED VALUES
 Always use:
-- business_phone = "6468459754"
-- business_email = "contracts@tvtcapital.com"
+- business_phone = " "
+- business_email = " "
 
 9. VALIDATION
 - Empty fields = ""
