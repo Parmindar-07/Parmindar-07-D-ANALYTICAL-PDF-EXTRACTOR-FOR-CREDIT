@@ -1,0 +1,42 @@
+# ================================================================================
+#  requirements.txt — Python Dependencies
+# ================================================================================
+#
+#  CORE (always required):
+#    PyMuPDF   — PDF text extraction and page rasterization
+#    pypdf     — PDF form field extraction (AcroForm / fillable PDFs)
+#    openpyxl  — Excel file generation for local export
+#    gspread   — Google Sheets API client
+#    anthropic — Claude AI provider (required for PDF direct extraction)
+#
+#  OPTIONAL AI PROVIDERS (uncomment to enable):
+#    google-generativeai — Gemini AI provider
+#    openai              — OpenAI GPT provider
+#
+#  OPTIONAL IMAGE OCR (uncomment if processing image files or handwritten PDFs):
+#    paddleocr     — OCR engine for images
+#    paddlepaddle  — PaddleOCR backend
+#    opencv-python — Image preprocessing (grayscale, denoising, threshold)
+#
+#  Install core:
+#    pip install -r requirements.txt
+#
+#  Install everything:
+#    pip install PyMuPDF pypdf openpyxl gspread anthropic google-generativeai openai paddleocr paddlepaddle opencv-python
+# ================================================================================
+
+# ── Core Dependencies ──────────────────────────────────────────────────────────
+PyMuPDF
+pypdf
+openpyxl
+gspread
+anthropic
+
+# ── Optional: AI Providers (uncomment as needed) ───────────────────────────────
+#google-generativeai
+#openai
+
+# ── Optional: Image OCR (uncomment to process images / handwritten PDFs) ───────
+#paddleocr
+#paddlepaddle
+#opencv-python

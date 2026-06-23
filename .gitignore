@@ -1,0 +1,27 @@
+# ── Secrets — NEVER commit these ─────────────────────────────────────────────
+.env
+credentials.json
+service_account.json
+*.json
+
+# ── Python bytecode ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Runtime output files ──────────────────────────────────────────────────────
+credit_export.xlsx
+sheet_counter.txt
+extraction_logs/
+uploads/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
