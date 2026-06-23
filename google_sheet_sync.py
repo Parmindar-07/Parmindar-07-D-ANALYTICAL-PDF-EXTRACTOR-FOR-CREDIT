@@ -56,14 +56,14 @@ from pathlib import Path
 APP_DIR = Path(__file__).resolve().parent
 
 # Default sheet ID (used when no GOOGLE_SHEET_ID_* env vars are set)
-DEFAULT_CREDIT_SHEET_ID = "1B-BnzuYH2tJW5X8Rrs2OgMUs5CuAhFDOCMy2rbEKPfQ"
+DEFAULT_CREDIT_SHEET_ID = " "
 
 # Sheet IDs for the "Sheet Clear" operation (clears all 4 sheets at once)
 SHEET_CLEAR_IDS = [
-    "1xRYetrJ-Vqh7h0rJRMiQs-zlWrfhjJY0DIOW5KMnMAM",
-    "1bmhq2jzW9Z7bg4cgSlGW4AlxPc2fL4BIIFxJx7ZpRqM",
-    "14HTxWnVSBoWVuqxz8EVdqSu1MUCvwylvp0MeuXzFbQE",
-    "1Q3kNRO5tJ8lYN6gK2K9ifZOL6n-k09wZlpdc9z2ozw4",
+    " Your sheet id ",
+    " ",
+    " ",
+    " ",
 ]
 
 # Counter file tracks which sheet to write to next (round-robin rotation)
@@ -71,8 +71,8 @@ _COUNTER_FILE = APP_DIR / "sheet_counter.txt"
 
 # Fixed contact info always added to submissions
 DEFAULT_FIXED_BUSINESS_CONTACT = {
-    "businessPhone": "6468459754",
-    "businessEmail": "contracts@tvtcapital.com",
+    "businessPhone": " ",
+    "businessEmail": " ",
 }
 
 # Thread lock — prevents concurrent sheet writes from corrupting column placement

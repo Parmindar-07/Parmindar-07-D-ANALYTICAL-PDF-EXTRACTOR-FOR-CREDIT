@@ -151,8 +151,8 @@ ALL_FIELDS = [item for _, fields in FIELD_GROUPS for item in fields]
 
 # Fixed contact values — always hardcoded, user cannot override these
 FIXED_BUSINESS_CONTACT = {
-    "businessPhone": "6468459754",
-    "businessEmail": "contracts@tvtcapital.com",
+    "businessPhone": " ",
+    "businessEmail": " ",
 }
 
 # Excel export column order
